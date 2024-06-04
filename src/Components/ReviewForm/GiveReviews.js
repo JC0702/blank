@@ -2,7 +2,7 @@ import Popup from "reactjs-popup";
 import { Button } from 'react-bootstrap';
 import React, { useState } from 'react';
 import Star from './Star'; // Import star component
-import './ReviewForm.css';
+import './GiveReviews.css';
 
 function GiveReviews() {
   const [showForm, setShowForm] = useState(false);
